@@ -1,0 +1,3 @@
+# Create n number of Folder in Windows using cmd
+
+FOR /L %N IN (1,1,5) DO md "newdir_%N"
