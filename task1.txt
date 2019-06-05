@@ -1,0 +1,13 @@
+#Change Default Desktop to Downloads in Linux..
+
+1) GOTO 
+vim /home/harsh/.config
+
+2) goto
+user-dirs.dirs
+
+3) change 
+
+XDG_DESKTOP_DIR="$HOME/Desktop"
+
+to any folder you want..
