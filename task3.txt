@@ -1,0 +1,19 @@
+# First command in terminal should display ERROR message, after that all commands should work normally
+
+
+1) open /home/harsh/.bashrc
+2) Copy and Paste the following code :
+
+k=0
+fun1()
+{
+((k++))
+if [ $k -eq 2 ]
+then
+clear
+echo "Error.. Please Try Again.!!"
+fi
+}
+PROMPT_COMMAND=fun1
+
+3) Save and Quit
