@@ -1,0 +1,8 @@
+# To create a qr code in linux - 
+
+
+1) Download qrencode
+
+2)   qrencode   -s   16x16   -o  abc.png    https://github.com/harshhg
+
+3)  Done !
